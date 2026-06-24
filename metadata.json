@@ -1,0 +1,6 @@
+{
+  "name": "GBIF Biodiversity Trend Analyzer",
+  "description": "Platform analisis bibliometrik dan spasiotemporal distribusi biodiversitas menggunakan data real-time GBIF. Menyediakan peta interaktif, visualisasi tren statistik otomatis, filter taksonomi, serta fitur ekspor laporan ke format PDF dan PNG.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

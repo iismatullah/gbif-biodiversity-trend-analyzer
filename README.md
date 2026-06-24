@@ -2,8 +2,6 @@
 
 GBIF Biodiversity Trend Analyzer adalah platform analisis bibliometrik dan spasiotemporal distribusi biodiversitas menggunakan data real-time GBIF (Global Biodiversity Information Facility). Platform ini menyediakan visualisasi peta interaktif, grafik tren statistik otomatis, analisis jaringan spesies (species network), filter taksonomi yang mendalam, serta fitur ekspor laporan komprehensif ke format PDF dan PNG.
 
-Aplikasi ini dapat diakses langsung via AI Studio: https://ai.studio/apps/c5ae88ec-28b2-407b-b59e-be5e9b9f1d07
-
 ---
 
 ## Fitur Utama

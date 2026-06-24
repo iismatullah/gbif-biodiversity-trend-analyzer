@@ -27,15 +27,12 @@ GBIF Biodiversity Trend Analyzer adalah platform analisis bibliometrik dan spasi
      - **Bobot Geografis**: Distribusi wilayah negara yang tumpang tindih.
    - Dilengkapi fitur interaktif seperti zoom in/out, seret node (drag), detail tooltip, dan pengaturan ambang batas bobot relasi minimum.
 
-4. **Unggah Berkas CSV Kustom**
-   - Parser CSV client-side yang andal (menangani baris baru, tanda kutip ganda, dan karakter khusus).
-   - Pemetaan otomatis kolom (mapping) berbasis sinonim nama kolom (misalnya mendeteksi `gbifid`, `scientificname`, `latitude`, `longitude`, `year` secara otomatis).
 
-5. **Ekspor Laporan Komprehensif**
+4. **Ekspor Laporan Komprehensif**
    - Menghasilkan laporan berformat **PDF** multi-halaman atau gambar **PNG** sekali klik menggunakan `html2canvas` dan `jsPDF`.
    - Menyertakan **Oklch Color Polyfill** khusus untuk mengatasi keterbatasan render warna `oklch()` CSS Tailwind v4 pada elemen Canvas.
 
-6. **Server Proxy GBIF Terintegrasi**
+5. **Server Proxy GBIF Terintegrasi**
    - Server Node.js/Express lokal menyediakan rute `/api/gbif/*` sebagai *proxy* ke API GBIF pusat untuk memintas CORS, pembatasan iframe sandboxing, dan pencegahan adblocker.
 
 ---
